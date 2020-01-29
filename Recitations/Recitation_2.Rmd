@@ -1,0 +1,51 @@
+---
+title: "Recitation_2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Setting wd
+setwd('/Users/Debbie/Documents/DOCUMENTS/CLASSES/DSPAN/GitHub/Bitran_DSPN_S20')
+
+#Loading data
+youtube_data <- read_csv("YoutubeVideos.csv")
+
+#2 data structures: vectors and frames
+#Vectors: lists of numbers 
+#c = concatenate
+#assigning "a" as a vector of 1, 2, & 3
+a <- c(1,2,3)
+##assigning "b" as a vector of 4, 5, & 6
+b<- c(4,5,6) 
+a*b
+```{r}
+#Setting wd
+setwd('/Users/Debbie/Documents/DOCUMENTS/CLASSES/DSPAN/GitHub/Bitran_DSPN_S20')
+
+#Loading data
+youtube_data <- read_csv("YoutubeVideos.csv")
+
+#2 data structures: vectors and frames
+#Vectors: lists of numbers 
+#c = concatenate
+#assigning "a" as a vector of 1, 2, & 3
+a <- c(1,2,3)
+##assigning "b" as a vector of 4, 5, & 6
+b<- c(4,5,6) 
+a*b
+```
+
+#Data frames: 
+#cbind = concatenate in columns
+```{r}
+c <- c ("one", "two", "three")
+data <- data.frame(cbind(a,b,c))
+```
+
+```{r}
+#Data indexing
+```
+
