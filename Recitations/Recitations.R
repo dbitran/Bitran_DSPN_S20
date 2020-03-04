@@ -35,3 +35,29 @@ diag(mat) <- 1
 mat 
 
 ###LOOK UP DETERMINANTS OF A MATRIX
+
+
+#Intro calc
+#integral for domain range from 0 to 1 
+a <- runif(1000, 0, 1)
+b <- a^2(1-0)
+mean(b)
+
+#integral for domain range from 2 to 4 
+a <- runif(1000, 0, 1)
+b <- a^2(4-2)
+mean(b)
+
+###RECITATION 6
+install.packages("ISLR")
+library(tidyverse)
+library(ISLR)
+library(MASS)
+
+fix(Boston)
+ses_input_values <- data.frame(lstat=c(5,10,15))
+prediction_table <- data.frame(predict(lm.fit, ses_input_values, prediction_table))
+
+#Working with categorical predictors
+install.packages("car")
+library(car)
